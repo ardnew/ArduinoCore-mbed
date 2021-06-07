@@ -427,7 +427,7 @@
 #define MBED_CONF_TARGET_RTC_CLOCK_SOURCE                                       USE_RTC_CLK_LSE_OR_LSI                                                                           // set by target:MCU_STM32
 #define MBED_CONF_TARGET_SYSTEM_POWER_SUPPLY                                    PWR_SMPS_1V8_SUPPLIES_LDO                                                                        // set by target:PORTENTA_H7
 #define MBED_CONF_TARGET_TICKLESS_FROM_US_TICKER                                0                                                                                                // set by target:Target
-#define MBED_CONF_TARGET_USB_SPEED                                              USE_USB_OTG_HS                                                                                   // set by target:PORTENTA_H7
+#define MBED_CONF_TARGET_USB_SPEED                                              USE_USB_OTG_FS                                                                                   // set by target:PORTENTA_H7
 #define MBED_CONF_TARGET_XIP_ENABLE                                             0                                                                                                // set by target:Target
 #define MBED_CONF_TELIT_HE910_BAUDRATE                                          115200                                                                                           // set by library:TELIT_HE910
 #define MBED_CONF_TELIT_HE910_PROVIDE_DEFAULT                                   0                                                                                                // set by library:TELIT_HE910

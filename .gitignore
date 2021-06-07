@@ -1,4 +1,8 @@
+cores/arduino/mbed/
 cores/arduino/api/
 cores/arduino/api*
+variants/PORTENTA_H7_M4/libs/libmbed.a
+variants/PORTENTA_H7_M7/libs/libmbed.a
 **/.vscode/
 **/.development
+**/null.d
